@@ -40,7 +40,7 @@
 <div class="container">
   <Prenda bind:prenda>
     <div style="text-align: right">
-      <Boton documento={prenda} tipo="insertar" coleccion="prendaS" />
+      <Boton documento={prenda} tipo="insertar" coleccion="prendas" />
     </div>
   </Prenda>
 </div>
