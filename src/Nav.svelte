@@ -81,10 +81,10 @@
 <nav>
   <ul class="menu">
     <li class="logo">
-      <Link to="/">🛒 Inicio</Link>
+      <Link to="/">🏠 Inicio</Link>
     </li>
     <li class="item active">
-      <Link to="/prendas">🎁 Prendas</Link>
+      <Link to="/prendas">👕 Prendas</Link>
     </li>
     <li class="item active">
       <Link to="/clientes">👥 Clientes</Link>

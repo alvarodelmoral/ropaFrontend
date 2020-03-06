@@ -16,7 +16,6 @@
 </style>
 
 <h1>Tienda de Ropa Frontend</h1>
-<p><small><b>Progressive Web App (PWA)</b></small></p>
 <p><small><b>Código fuente en <a href="https://github.com/alvarodelmoral/ropaFrontend">https://github.com/alvarodelmoral/ropaFrontend</a></b></small></p>
 <p>Esta SPA (Single Page Application) ofrece 3 opciones:</p>
 <div>
