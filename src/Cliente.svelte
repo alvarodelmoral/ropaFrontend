@@ -50,7 +50,7 @@
 <div class="card" on:click>
   <input bind:value={cliente.nombre} class="title" />
   <input bind:value={cliente.apellidos} class="title" />
-  <input bind:value={cliente.edad} class="title" />
+  <input bind:value={cliente.edad} class="title" type="number" />
   <input bind:value={cliente.direccion} class="title" />
   <slot />
 </div>
