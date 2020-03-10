@@ -1,17 +1,16 @@
 <script>
   import { onMount, getContext } from "svelte";
-  import { jsonData }            from "./store.js";
+  import { jsonData } from "./store.js";
 
   export let tipo = "insertar"; // insertar, modificar, eliminar
   export let coleccion = "prendas"; // articulos, clientes
   export let documento = {};
-  
- 
-  let handler = () => {};  
+
+  let handler = () => {};
   let clases = "";
   let url = "";
 
-  const URL = getContext("URL"); 
+  const URL = getContext("URL");
 
   onMount(() => {
     switch (tipo) {
@@ -31,8 +30,12 @@
     }
 
     switch (coleccion) {
-      case "prendas": url=URL.prendas; break;
-      case "clientes": url=URL.clientes; break;
+      case "prendas":
+        url = URL.prendas;
+        break;
+      case "clientes":
+        url = URL.clientes;
+        break;
       default:
     }
   });
@@ -80,12 +83,12 @@
   let ok = () => {
     OK.style.display = "block";
     setTimeout(() => (OK.style.display = "none"), 1500);
-  }
+  };
 
   let ko = () => {
     KO.style.display = "block";
     setTimeout(() => (KO.style.display = "none"), 1500);
-  }
+  };
 </script>
 
 <style>
